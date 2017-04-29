@@ -4,8 +4,11 @@
     c. <!-- Bootstrap core CSS --> <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme --> <link href="<?php echo base_url();?>assets/css/bootstraptheme.min.css" rel="stylesheet">
 
+    <link rel="icon" href="<?php echo base_url();?>assets/imgs/favicon.png">
+    <link href="<?php echo base_url();?>assets/css/custom.css" rel=stylesheet">
 
-    <title>Bootstrap Theme Company Page</title>
+
+    <title>Prenájom</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -20,7 +23,7 @@
         body {
             font: 400 15px Lato, sans-serif;
             line-height: 1.8;
-            color: #818181;
+            color: #0f0f0f;
         }
 
 
@@ -39,7 +42,7 @@
             margin-bottom: 30px;
         }
         {
-            background-color: #f4511e;
+            background-color: #303030;
             color: #fff;
             padding: 100px 25px;
             font-family: Montserrat, sans-serif;
@@ -48,7 +51,7 @@
             padding: 60px 50px;
         }
         {
-            background-color: #f6f6f6;
+            background-color: #fff;
         }
         {
             color: #f4511e;
@@ -128,7 +131,7 @@
         }
         .navbar {
             margin-bottom: 0;
-            background-color: #f4511e;
+            background-color: #204d74;
             z-index: 9999;
             border: 0;
             font-size: 12px !important;
@@ -138,11 +141,11 @@
             font-family: Montserrat, sans-serif;
         }
         .navbar li a, .navbar .navbar-brand {
-            color: #fff !important;
+            color: #f0ad4e !important;
         }
         .navbar-nav li a:hover, .navbar-nav li.active a {
-            color: #f4511e !important;
-            background-color: #fff !important;
+            color: #0f0f0f !important;
+            background-color: #31708f !important;
         }
         .navbar-default .navbar-toggle {
             border-color: transparent;

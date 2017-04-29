@@ -9,17 +9,54 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">PROGRAMOVANIE DB APLIKACII</a>
+
+
+
+
+
+
+            </button>
+            <a class="navbar-brand" href="#">PRENAJOM</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <form class="navbar-form navbar-right">
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">ODKAZ1</a></li>
+                        <li><a href="#">ODKAZ2</a></li>
+                        <li><a href="#">ODKAZ3</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">ODKAZ4</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">ODKAZ5</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
-                    <input type="text" placeholder="Email" class="form-control">
+
+
+
+
+
+
+
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+
+
+                    <input type="text" placeholder="Meno" class="form-control">
                 </div>
                 <div class="form-group">
-                    <input type="password" placeholder="Password" class="form-control">
+                    <input type="password" placeholder="Heslo" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-success">Sign in</button>
+                <button type="submit" class="btn btn-success">Prihlásiť sa</button>
             </form>
         </div><!--/.navbar-collapse -->
     </div>
@@ -41,50 +78,27 @@
 <div class="jumbotron">
     <div class="container">
         <h1>Vitajte na mojej stránke!</h1>
-        <p>Ahooooooooooooooooooooooooooooooooooooooooooooj</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p>Projekt na predmet programovanie databázových aplikácii.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Prečítajte si viac &raquo;</a></p>
     </div>
 </div>
 
 
 
+<center><img src="assets/imgs/header.png"/><br <br /></form>
+</center>
 
 
-
-
-<div class="container">
-    <h2>Aktualne pocasie</h2>
+    <div class="container">
+    <h2>Panel1</h2>
     <div class="panel panel-default">
         <div class="panel-body">
-
-
-
 
 
 
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -133,6 +147,6 @@
 
 
     <footer>
-        <p>&copy; 2016 Company, Inc.</p>
+        <p>&copy; 2017 Kysucký</p>
     </footer>
 </div> <!-- /container -->
