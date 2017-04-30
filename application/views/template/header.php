@@ -1,7 +1,7 @@
 <head>
     <!-- Theme Made By www.w3schools.com - No Copyright -->
 
-    c. <!-- Bootstrap core CSS --> <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Bootstrap core CSS --> <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme --> <link href="<?php echo base_url();?>assets/css/bootstraptheme.min.css" rel="stylesheet">
 
     <link rel="icon" href="<?php echo base_url();?>assets/imgs/favicon.png">
@@ -141,7 +141,7 @@
             font-family: Montserrat, sans-serif;
         }
         .navbar li a, .navbar .navbar-brand {
-            color: #f0ad4e !important;
+            color: #ffffff !important;
         }
         .navbar-nav li a:hover, .navbar-nav li.active a {
             color: #0f0f0f !important;

@@ -6,5 +6,10 @@
 <script src="../../dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-</body>
-</html>
+
+
+<footer>
+    <p>&copy; 2017 Kysucký</p>
+</footer>
+</div> <!-- /container -->
+
