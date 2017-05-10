@@ -1,3 +1,7 @@
+
+
+
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -10,14 +14,52 @@
 
 
 
+
+
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar1">
+                        <ul class="nav navbar-nav navbar-right">
+
+
+                                <li><a href="<?php echo base_url(); ?>index.php/login">Prihlásiť sa</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/signup">Registrovať sa</a></li>
+
+
+
+
+            </nav>
+
+            <div class="container">
+
+
+
+
+
+
+
+
             </button>
-            <a class="navbar-brand" href="">F5</a>
+            <a class="navbar-brand" href="">Prenájom prevádzok</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="<?php echo site_url(""); ?>">Domov</a></li>
                 <li><a href="<?php echo site_url("Home/about"); ?>">O nás</a></li>
                 <li><a href="<?php echo site_url("Home/contact"); ?>">Kontakt</a></li>
+                <li><a href="<?php echo site_url("databaza/pouzivatelia"); ?>">Zoznam používateľov</a></li>
+                <li><a href="<?php echo site_url("databaza/prenajom"); ?>">Prenájom</a></li>
+                <li><a href="<?php echo site_url("databaza/platby"); ?>">Platby</a></li>
+                <li><a href="<?php echo site_url("databaza/budova"); ?>">Budovy</a></li>
+
+
+
+
 
 
                     </ul>
@@ -33,13 +75,12 @@
                             <div class="form-group">
 
 
-                                <input type="text" placeholder="Meno" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" placeholder="Heslo" class="form-control">
-                            </div>
-                            <button type="submit" class="btn btn-success">Prihlásiť sa</button>
-                            <button type="submit" class="btn btn-success">Registrovať sa</button>
+
+
+
+
+                          
+
 
                         </form>
                     </div><!--/.navbar-collapse -->
@@ -47,3 +88,8 @@
         </div>
     </div>
 </nav>
+
+<BR>
+<BR>
+<BR>
+<BR>

@@ -7,6 +7,11 @@
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
+<p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML = Date();
+</script>
 
 <footer>
     <p>&copy; 2017 Kysucký</p>

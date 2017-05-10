@@ -8,6 +8,8 @@
     <link href="<?php echo base_url();?>assets/css/custom.css" rel=stylesheet">
 
 
+
+    
     <title>Prenájom</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
