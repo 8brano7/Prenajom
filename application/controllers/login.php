@@ -5,7 +5,8 @@ class login extends CI_Controller
 	{
 
 		parent::__construct();
-
+        $this->load->view('template/header');
+        $this->load->view('template/navigation');
 		$this->load->helper(array('form','url','html'));
 		$this->load->library(array('session', 'form_validation'));
 		$this->load->database();

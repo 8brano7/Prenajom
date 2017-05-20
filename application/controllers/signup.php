@@ -4,6 +4,8 @@ class signup extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
+        $this->load->view('template/header');
+        $this->load->view('template/navigation');
 		$this->load->helper(array('form','url'));
 		$this->load->library(array('session', 'form_validation'));
 		$this->load->database();
