@@ -70,12 +70,12 @@ $lang['error_max_file_size'] 		= "Nahrávaný súbor prekročil povolenú veľko
 $lang['error_min_file_size'] 		= "Nie je možné nahrať prázdny súbor.";
 
 /* Added in version 1.3.1 */
-$lang['list_export'] 	= 'Exportovať';
+$lang['list_export'] 	= 'Exportovať údaje z tabuľky do Excelu';
 $lang['list_print'] 	= 'Tlačiť';
 $lang['minimize_maximize'] = 'Minimalizovať/Maximalizovať';
 
 /* Added in version 1.4 */
-$lang['list_view'] = 'View';
+$lang['list_view'] = 'Zobraziť podrobnosti';
 
 /* Added in version 1.5.1 */
 $lang['ui_day'] = 'dd';
