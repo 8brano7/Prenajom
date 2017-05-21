@@ -14,7 +14,7 @@
 
 
 
-<center><img src="assets/imgs/header.png"/><br <br /></form>
+<center><img src="http://bstudio.sk/images/header.png" alt="some_text">  <br /></form>
 </center>
 
 

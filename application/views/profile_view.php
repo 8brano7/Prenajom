@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
+
+
+
+<BR>
+<BR>
+
+<BR>
+
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Môj profil | Prenájom prevádzok</title>
     <link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.css"); ?>">
 </head>
+
+
+
 <body>
 <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
@@ -45,9 +57,14 @@
             <center>
                 Navigácia:
             </center>
-            <li><a href="<?php echo base_url(); ?>index.php">Vrátiť sa späť na domovskú stránku</a></li
-            <li><a href="<?php echo base_url(); ?>index.php/databaza/pouzivatelia">Zoznam používateľov</a></li>
-            <li><a href="<?php echo base_url(); ?>index.php/databaza/prenajom">Pridať nový prenájom</a></li>
+            <li><a href="<?php echo base_url(); ?>index.php">Domov</a></li
+            <li><a href="<?php echo base_url(); ?>"></a></li>
+            <li><a href="<?php echo base_url(); ?>index.php/signup">Zaregistrovať nového administrátora</a></li>
+            <li><a href="<?php echo base_url(); ?>index.php/Databaza/admin_pouzivatelia">Editovat zoznam používateľov</a></li>
+            <li><a href="<?php echo base_url(); ?>index.php/Databaza/admin_prenajom">Editovat prenájmi</a></li>
+            <li><a href="<?php echo base_url(); ?>index.php/Databaza/admin_poschodie">Editovat poschodia</a></li>
+            <li><a href="<?php echo base_url(); ?>index.php/Databaza/admin_platby">Editovat platby</a></li>
+            <li><a href="<?php echo base_url(); ?>index.php/Databaza/admin_budova">Editovat budovy</a></li>
 
 
 
@@ -71,3 +88,6 @@
 <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap.js"); ?>"></script>
 </body>
 </html>
+
+
+

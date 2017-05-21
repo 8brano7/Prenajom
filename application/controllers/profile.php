@@ -5,6 +5,8 @@ class profile extends CI_Controller
 	{
 
 		parent::__construct();
+        $this->load->view('template/header');
+        $this->load->view('template/navigation');
 		$this->load->helper(array('url','html'));
 		$this->load->library('session');
 		$this->load->database();

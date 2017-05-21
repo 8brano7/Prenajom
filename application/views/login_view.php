@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<BR>
+<BR>
+<BR>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +61,7 @@
     </div>
     <div class="row">
         <div class="col-md-4 col-md-offset-4 text-center">
-            Nový používateľ? <a href="<?php echo base_url(); ?>index.php/signup">Zaregistrujte sa tu!</a>
+
         </div>
     </div>
 </div>

@@ -33,10 +33,9 @@
                             <?php if ($this->session->userdata('login')){ ?>
                                 <li><p class="navbar-text">Úspešne ste prihlásený <?php echo $this->session->userdata('meno'); ?></p></li>
                                 <li><a href="<?php echo base_url(); ?>index.php/home/logout">Odhlásiť sa</a></li>
-                                <li><a href="<?php echo base_url(); ?>index.php/profile/index">Profil</a></li>
+                                <li><a href="<?php echo base_url(); ?>index.php/profile/index">Administrácia</a></li>
                             <?php } else { ?>
                                 <li><a href="<?php echo base_url(); ?>index.php/login">Prihlásiť sa</a></li>
-                                <li><a href="<?php echo base_url(); ?>index.php/signup">Registrovať sa</a></li>
                             <?php } ?>
 
 
@@ -61,6 +60,7 @@
                     <li><a href="<?php echo site_url("Home/contact"); ?>">Kontakt</a></li>
                     <li><a href="<?php echo site_url("databaza/pouzivatelia"); ?>">Zoznam používateľov</a></li>
                     <li><a href="<?php echo site_url("databaza/prenajom"); ?>">Prenájom</a></li>
+                    <li><a href="<?php echo site_url("databaza/poschodie"); ?>">Poschodia</a></li>
                     <li><a href="<?php echo site_url("databaza/platby"); ?>">Platby</a></li>
                     <li><a href="<?php echo site_url("databaza/budova"); ?>">Budovy</a></li>
 
