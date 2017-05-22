@@ -14,7 +14,7 @@
 
 
 
-<center><img src="http://bstudio.sk/images/header.png" alt="some_text">  <br /></form>
+<center><img src="http://bkysucky17.student.ki.fpv.ukf.sk/assets/imgs/header.png" alt="some_text">  <br /></form>
 </center>
 
 
@@ -186,7 +186,7 @@
         <body>
 
         <div id="chart_div" align="center" style="background-color: rgba(0, 0, 0, 0.5); color: white;"></div>
-        <h1> Jednotlivé platby používateľov (podľa ID používateľa) </h1>
+        <h1> Jednotlivé platby používateľov (podľa ID používateľa v €) </h1>
         <br />
 
         <div id="chart_div3" align="center" ></div>

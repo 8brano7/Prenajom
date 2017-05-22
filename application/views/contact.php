@@ -1,8 +1,6 @@
 
 <BR>
 <BR>
-<BR>
-
 
 <div class="container">
     <form id="contact" action="" method="post">
@@ -28,5 +26,6 @@
         </fieldset>
     </form>
 
+    <center> <img src="http://bkysucky17.student.ki.fpv.ukf.sk/assets/imgs/header.png" alt="some_text">  <br /></form> </center>
 
 </div>

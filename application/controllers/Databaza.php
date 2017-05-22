@@ -123,7 +123,7 @@ class Databaza extends CI_Controller {
         $crud->display_as('poschodieID','ID poschodia');
         $crud->display_as('budovaID','Názov budovy');
         $crud->display_as('poschodie','Poschodie');
-        $crud->display_as('cena_m_stvorcovy','Cena za meter štvorcový');
+        $crud->display_as('cena_m_stvorcovy','Cena za meter štvorcový (€)');
         $crud->set_subject('poschodie');
         $crud->set_relation('budovaID','budova','nazov');
 
@@ -137,6 +137,8 @@ class Databaza extends CI_Controller {
         $this->_example_output($output);
 
     }
+
+
 
 
 
@@ -352,14 +354,21 @@ class Databaza extends CI_Controller {
         $crud->display_as('prenajomID','Prenájom');
         $crud->display_as('zaciatok','Začiatok prenájmu');
         $crud->display_as('koniec','Koniec prenájmu');
-        $crud->display_as('NajomCena','Cena za nájom');
-        $crud->display_as('CenaVody','Cena za vodu');
-        $crud->display_as('CenaElektriny','Cena za elektriku');
-        $crud->display_as('CenaPlynu','Cena za plyn');
+        $crud->display_as('NajomCena','Cena za nájom (€)');
+        $crud->display_as('CenaVody','Cena za vodu (€)');
+        $crud->display_as('CenaElektriny','Cena za elektriku (€)');
+        $crud->display_as('CenaPlynu','Cena za plyn (€)');
         $crud->display_as('DatumPlatby','Dátum platby');
         $crud->set_relation('prenajomID','prenajom','nazov');
-        $crud->set_relation('uzivatelID','uzivatel','meno');
-        $crud->display_as('uzivatelID','Meno');
+
+
+
+        $crud->set_relation('uzivatelID','uzivatel','{uzivatelID}   {meno} {priezvisko}');
+
+
+        $crud->display_as('uzivatelID','ID - Meno ');
+
+
 
         $crud->set_subject('Platbu');
 
@@ -398,13 +407,15 @@ class Databaza extends CI_Controller {
         $crud->display_as('zaciatok','Začiatok prenájmu');
         $crud->display_as('koniec','Koniec prenájmu');
         $crud->display_as('NajomCena','Cena za nájom');
-        $crud->display_as('CenaVody','Cena za vodu');
-        $crud->display_as('CenaElektriny','Cena za elektriku');
-        $crud->display_as('CenaPlynu','Cena za plyn');
+        $crud->display_as('CenaVody','Cena za vodu (€)');
+        $crud->display_as('CenaElektriny','Cena za elektriku (€)');
+        $crud->display_as('CenaPlynu','Cena za plyn (€)');
         $crud->display_as('DatumPlatby','Dátum platby');
         $crud->set_relation('prenajomID','prenajom','nazov');
-        $crud->set_relation('uzivatelID','uzivatel','meno');
-        $crud->display_as('uzivatelID','Meno');
+        $crud->set_relation('uzivatelID','uzivatel','{uzivatelID}   {meno} {priezvisko}');
+
+
+        $crud->display_as('uzivatelID','ID - Meno ');
 
         $crud->set_subject('Platbu');
 

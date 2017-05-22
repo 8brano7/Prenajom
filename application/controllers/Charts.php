@@ -173,11 +173,11 @@ class Charts extends CI_Controller
         {
             $response->rows[]["c"] = array(
                 array(
-                    "v" => (int)$cd->CenaElektriny,
+                    "v" => (int)$cd->prenajomID,
                     "f" => null
                 ) ,
                 array(
-                    "v" => (int)$cd->prenajomID,
+                    "v" => (int)$cd->CenaElektriny,
                     "f" => null
                 )
             );
