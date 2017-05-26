@@ -1,70 +1,29 @@
 ###################
-What is CodeIgniter
+Obsah stránky
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Obsahom mojej stránky je prenájom prevádzok. Vytvoril som aplikáciu, ktorá  pre každú prevádzku  eviduje platbu
+za nájomné + energie.
 
 *******************
-Release Information
+Informácie ohľadom webovej aplikácie
 *******************
+Na hlavnej stránke majú používatelia možnosť zobrazenia všetkych tabuliek.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Zoznam používateľov - eviduje všetkých používateľov v databáze,
+Prenájom - eviduje všetký dostupné prenájmy aj s rozlohou,
+Poschodia - evidujú na ktorých poschodiach sa nachádzajú jednotlivé prevádzky + aké sú cený za jednotlivé poschodia,
+Platby - evidujú ku každému používateľovi prenájom, jednotlivé platby za nájomné + energie a taktiež evidujú dátumy,
+Budovy - evidujú lokalitu kde sa jednotlivé budovy nachádzajú.
 
-**************************
-Changelog and New Features
-**************************
+Okrem prezerania záznamov v tabuľkýách sá dá zobraziť aj detail jednotlivých záznamov, údaje môžetete  exportovať do excelu,
+alebo ich tlačiť. Na hlavnej stránke sú tiež umiestnené 4 rôzne grafy, ktoré čerpajú údaje z databázy.
+V menu sa tiež nachádzajú stránky  "O nás", kde si môžete  prečítať v krátkosti o spoločnosti, alebo "Kontakt", ktorá obsahuje
+kontaktný formulár.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Na úvodej stránke sa nachádza aj odkaz na prihlasovacie okno.
+Prihlásiť sa môže len administrátor, bežný používateľ nemá prístup.
+Administrátor môže editovať (pridávať/upravovať/mazať) jednotlivé tabuľky cez administračnú sekciu, alebo registrovať
+nových administrátorov. Prihlasovanie je zabezpečené pomocou emailu a hesla. Administrátorské údaje som uviedol v EDU.
 
-*******************
-Server Requirements
-*******************
 
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
