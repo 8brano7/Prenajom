@@ -29,7 +29,7 @@
         <head>
             <BR>
 
-            <h1> Naposledy registrovaný používateľia (vzostupne podľa ID) </h1>
+            <h1> Prehľad platieb nájomníkov za prenájom (€) </h1>
             <!--Load the AJAX API-->
             <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
             <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -61,7 +61,7 @@
                         vAxis: {textStyle: {color: 'blue'}}
                     }
 
-                    var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+                    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 
                     chart.draw(data, options);
                 }
@@ -125,7 +125,7 @@
         <body>
 
         <div id="chart_div" align="center" style="background-color: rgba(0, 0, 0, 0.5); color: white;"></div>
-        <h1> Rozloha jednotlivých  priestorov na prenájom  (m2)  </h1>
+        <h1> Rozloha jednotlivých prevádzok  (m2)  </h1>
         <br />
 
         <div id="chart_div2" align="center" ></div>
@@ -169,7 +169,7 @@
                     vAxis: {textStyle: {color: 'blue'}}
                 }
 
-                var chart = new google.visualization.PieChart(document.getElementById('chart_div3'));
+                var chart = new google.visualization.LineChart(document.getElementById('chart_div3'));
 
                 chart.draw(data, options);
             }
@@ -186,7 +186,7 @@
         <body>
 
         <div id="chart_div" align="center" style="background-color: rgba(0, 0, 0, 0.5); color: white;"></div>
-        <h1> Jednotlivé platby používateľov (podľa ID používateľa v €) </h1>
+        <h1> Prehľad cien za elektrinu podľa jednotlivých prevádzok (€) </h1>
         <br />
 
         <div id="chart_div3" align="center" ></div>
@@ -230,7 +230,7 @@
                     vAxis: {textStyle: {color: 'blue'}}
                 }
 
-                var chart = new google.visualization.LineChart(document.getElementById('chart_div4'));
+                var chart = new google.visualization.ColumnChart(document.getElementById('chart_div4'));
 
                 chart.draw(data, options);
             }
@@ -247,7 +247,7 @@
         <body>
 
         <div id="chart_div" align="center" style="background-color: rgba(0, 0, 0, 0.5); color: white;"></div>
-        <h1> Prehľad cien za elektrinu (podľa ID prenájmu v €) </h1>
+        <h1> Porovnanie cien jednotlivých prevádzok (za m2 v €) </h1>
         <br />
         <div style="background-color: rgba(0, 0, 0, 0.5); color: white;">
             <div id="chart_div4" align="center" ></div>

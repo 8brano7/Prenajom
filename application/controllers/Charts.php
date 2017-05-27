@@ -37,13 +37,13 @@ class Charts extends CI_Controller
 
         $response->cols[] = array(
             "id" => "",
-            "label" => "Topping",
+            "label" => "Meno",
             "pattern" => "",
             "type" => "string"
         );
         $response->cols[] = array(
             "id" => "",
-            "label" => "Poradové číšlo",
+            "label" => "Cena za prenájom",
             "pattern" => "",
             "type" => "number"
         );
@@ -51,11 +51,11 @@ class Charts extends CI_Controller
         {
             $response->rows[]["c"] = array(
                 array(
-                    "v" => "Používateľ " . "$cd->meno",
+                    "v" => "$cd->Meno" . " " . "$cd->Priezvisko",
                     "f" => null
                 ) ,
                 array(
-                    "v" => (int)$cd->uzivatelID,
+                    "v" => (int)$cd->NajomCena,
                     "f" => null
                 )
             );
@@ -65,6 +65,7 @@ class Charts extends CI_Controller
     }
 
 
+
     function getdata2()
     {
         $response = "";
@@ -72,6 +73,8 @@ class Charts extends CI_Controller
 
 
         //         //data to json
+
+
 
         $response->cols[] = array(
             "id" => "",
@@ -117,13 +120,13 @@ class Charts extends CI_Controller
 
         $response->cols[] = array(
             "id" => "",
-            "label" => "Názov budovy",
+            "label" => "Prevádzka",
             "pattern" => "",
             "type" => "string"
         );
         $response->cols[] = array(
             "id" => "",
-            "label" => " m2 ",
+            "label" => "Cena za elektrinu (€)",
             "pattern" => "",
             "type" => "number"
         );
@@ -131,11 +134,11 @@ class Charts extends CI_Controller
         {
             $response->rows[]["c"] = array(
                 array(
-                    "v" => (int)$cd->uzivatelID,
+                    "v" => "$cd->Nazov" . " " . "$cd->Nazov",
                     "f" => null
                 ) ,
                 array(
-                    "v" => (int)$cd->NajomCena,
+                    "v" => (int)$cd->CenaVody,$cd->CenaPlynu,$cd->CenaElektriny,
                     "f" => null
                 )
             );
@@ -157,7 +160,7 @@ class Charts extends CI_Controller
 
         $response->cols[] = array(
             "id" => "",
-            "label" => "ID prenájmu",
+            "label" => "Názov",
             "pattern" => "",
             "type" => "string"
         );
@@ -165,7 +168,7 @@ class Charts extends CI_Controller
 
         $response->cols[] = array(
             "id" => "",
-            "label" => " Cena za elektrinu ",
+            "label" => " Cena za meter štvorcový (€) ",
             "pattern" => "",
             "type" => "number"
         );
@@ -173,11 +176,11 @@ class Charts extends CI_Controller
         {
             $response->rows[]["c"] = array(
                 array(
-                    "v" => (int)$cd->prenajomID,
+                    "v" => "$cd->Nazov" . " " . "$cd->Nazov",
                     "f" => null
                 ) ,
                 array(
-                    "v" => (int)$cd->CenaElektriny,
+                    "v" => (int)$cd->CenaM,
                     "f" => null
                 )
             );
