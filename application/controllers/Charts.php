@@ -92,7 +92,7 @@ class Charts extends CI_Controller
         {
             $response->rows[]["c"] = array(
                 array(
-                    "v" => "$cd->nazov" . " " . "$cd->nazov",
+                    "v" => "$cd->nazov",
                     "f" => null
                 ) ,
                 array(
@@ -134,7 +134,7 @@ class Charts extends CI_Controller
         {
             $response->rows[]["c"] = array(
                 array(
-                    "v" => "$cd->Nazov" . " " . "$cd->Nazov",
+                    "v" => "$cd->Nazov",
                     "f" => null
                 ) ,
                 array(
@@ -176,7 +176,7 @@ class Charts extends CI_Controller
         {
             $response->rows[]["c"] = array(
                 array(
-                    "v" => "$cd->Nazov" . " " . "$cd->Nazov",
+                    "v" => "$cd->Nazov",
                     "f" => null
                 ) ,
                 array(
