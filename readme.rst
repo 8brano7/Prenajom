@@ -12,11 +12,15 @@ Na hlavnej stránke majú používatelia možnosť zobrazenia všetkych tabuliek
 Tabuľky obsahujúce cudzie kľúče som prepojil a napríklad pri tabuľke "Budovy" sa namiesto ID budovy zobrazuje presný názov
 danej budovy, aby dané údaje boli používateľovi čo najzrozumitelnejšie prístupne.
 
--`Zoznam používateľov - eviduje všetkých používateľov v databáze.`_
--`Prenájom - eviduje všetký dostupné prevádzky aj s rozlohou.`_
--`Poschodia - evidujú na ktorých poschodiach sa nachádzajú jednotlivé prevádzky + aké sú cený za jednotlivé poschodia.`_
--`Platby - evidujú ku každému nájomníkovi prenájom, jednotlivé platby za nájomné + energie a taktiež evidujú dátumy.`_
--`Budovy - evidujú zoznam budov, kde sa jednotlivé prevádzky nachádzajú.`_
+-`Zoznam používateľov - eviduje všetkých používateľov v databáze.`
+
+-`Prenájom - eviduje všetký dostupné prevádzky aj s rozlohou.`
+
+-`Poschodia - evidujú na ktorých poschodiach sa nachádzajú jednotlivé prevádzky + aké sú cený za jednotlivé poschodia.`
+
+-`Platby - evidujú ku každému nájomníkovi prenájom, jednotlivé platby za nájomné + energie a taktiež evidujú dátumy.`
+
+-`Budovy - evidujú zoznam budov, kde sa jednotlivé prevádzky nachádzajú.`
 
 Okrem prezerania záznamov v tabuľkách sá dá zobraziť aj detail jednotlivých záznamov, údaje sa dajú exportovať do excelu,
 alebo ich môžete tlačiť. Na hlavnej stránke sú tiež umiestnené 4 rôzne typy grafov, ktoré čerpajú údaje z databázy. V grafoch
