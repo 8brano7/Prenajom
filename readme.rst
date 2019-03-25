@@ -35,7 +35,7 @@ nových administrátorov. Pri pridávaní nových záznamov v tabuľkách kde s�
 môže vybrať zo zoznamu cuzdí kľúč, namiesto toho aby ho pridával ručne. Napríklad pri vkladaní údajov do tabuľky poschodia sa namiesto
 ID budovov zobrazuje zoznam s názvami daných budov.
 
-Prihlasovanie je možné pomocou emailu a hesla. Administrátorské údaje som uviedol v EDU.
+Prihlasovanie je možné pomocou emailu a hesla. Prihlasovacie údaje administrátora sú: Login :  brano87@gmail.com  Heslo: 123                   
 Prihlasovanie využíva session.
 
 
